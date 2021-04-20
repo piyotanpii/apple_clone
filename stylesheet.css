@@ -1,0 +1,152 @@
+body,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(53, 53, 53);
+    height: 45px;
+    width:100%;
+    position:fixed;
+    top:0px;
+    z-index: 10;
+    /* text-align: center; */ 
+}
+.flex-list{
+    display:flex;
+    height: 45px;
+    width: 80%;
+    margin: auto;
+}
+.flex-list li{
+    flex:auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header li{
+    list-style: none;
+    color:rgb(211, 208, 208);
+    /* float:left; */
+    padding:0px 30px;
+    line-height: 25px;
+    
+}
+    
+header li:hover{
+    color:rgb(255, 255, 255);
+}
+
+.top-wrapper  {
+    background-color:rgb(243, 243, 243);
+    align-items:center;
+    height:40px;
+    padding-top: 50px;
+    color:rgb(116, 116, 116);
+    font-size:5.5px;
+    text-align: center;
+    width:100%;
+}
+
+.top-wrapper span{
+    color:rgb(64, 153, 255);
+
+}
+.top-wrapper span:hover{
+    border-bottom:1px solid rgb(64, 153, 255);
+}
+.wrapper{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.wrapper li{
+    flex: auto;
+    width:50%;
+}
+.img-w100 {
+    width: 100%;
+}
+@media(max-width:1000px) {
+    .wrapper{
+        flex-direction: column;
+    }
+    .main{
+        height:2250px;
+        padding-bottom: 20px;
+    }
+}
+footer{
+    height: 930px;
+    background-color: rgb(243, 243, 243);
+    color:rgb(128, 128, 128);
+    margin-top:10px;
+}
+.container{
+    width:70%;
+    margin:0 auto;
+}
+footer p{
+     /* padding:0 180px; */
+    font-size: 11px;  
+    padding-top: 10px;
+    padding-bottom:10px;
+    /* width: 1300px; */
+    margin:0 auto;
+}
+.footer-border{
+    border-bottom:1px solid rgb(155, 155, 155);
+    padding-bottom:20px;
+} 
+
+footer li{
+    font-size: 11px;
+}
+.footer{
+    list-style: none;
+}
+.footer-b{
+    display: flex;
+    justify-content:space-between;
+}
+.footer li{
+    flex:auto; 
+    padding-top:10px;
+}
+footer h4{
+    color:rgb(34, 34, 34);
+    font-size:10px;
+}
+footer span{
+    color:rgb(64, 153, 255);
+}
+footer span:hover{
+    border-bottom:1px solid rgb(64, 153, 255);
+}
+
+
+.footer-bottom{
+    list-style: none;
+    padding-top:10px;
+}
+.footer-copy p{
+    float:left;
+    padding-right:20px;
+    padding-top:20px;
+}
+.footer-bottom li{
+    float:left;
+    padding-right:20px;
+    padding-top:10px;
+}
+.border-left{
+    border-left:1px solid rgb(155, 155, 155);
+    padding-left:10px;
+}
+.footer-bottom .right{
+    float:right;
+}
+footer li:hover{
+    border-bottom:1px solid rgb(155, 155, 155);
+}
